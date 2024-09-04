@@ -1,12 +1,52 @@
 body {
     color: white;
-    background: black;
+    background: rgb(91, 92, 94);
     margin: 0px;
+    font-family: "Courier Prime", monospace;
 }
 
 header {
-    border-bottom: solid 2px rgb(42, 122, 228);
+    border-bottom: solid 2px rgb(0, 0, 0);
     padding: 20px;
     font-size: 32px;
-    color: rgb(42, 122, 228);
+    color: rgb(255, 255, 255);
+}
+
+
+.chamada{
+    background: rgb(60, 60, 60);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+
+}
+.chamada-texto{
+    margin-right: 5%;
+}
+
+img{
+        height: 200px
+}
+.categoria-videos{
+    display:flex;
+    overflow-x: auto;
+    gap:10px;
+}
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.categoria-videos img {
+    opacity:0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+opacity: 1.0;
+border: 1.0px solid rgb(139, 137, 137);
+}
+.categoria h2 {
+    color: rgb(255, 255, 255);
 }
